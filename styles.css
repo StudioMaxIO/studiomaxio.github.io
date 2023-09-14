@@ -18,6 +18,27 @@ body {
   h2 {
     border-bottom: 2px solid #333;
   }
+
+  #experience ul {
+    margin-top: -0.5em;
+    margin-bottom: 2em;
+  }
+
+  .title {
+    display:block;
+    font-size: 1.3em;
+    margin-bottom: 0.25em;
+    font-weight: bold;
+  }
+  .position {
+    display:block;
+    margin-bottom: 0.25em;
+    font-weight: bold;
+  }
+  .detail {
+    display:block;
+    font-style: italic;
+  }
   
   #contact a {
     color:aqua;
