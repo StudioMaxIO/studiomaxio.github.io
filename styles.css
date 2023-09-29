@@ -23,13 +23,28 @@ body {
     margin-top: -0.5em;
     margin-bottom: 2em;
   }
-
+  .certTitle {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 0.25em;
+    font-weight: bold;
+  }
+  .certIssuer {
+    display:block;
+    margin-bottom: 0.25em;
+    font-weight: bold;
+  }
+  .certSkills {
+    display:block;
+    margin-bottom: 0.25em;
+  }
   .title {
     display:block;
     font-size: 1.3em;
     margin-bottom: 0.25em;
     font-weight: bold;
   }
+  
   .position {
     display:block;
     margin-bottom: 0.25em;
