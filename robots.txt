@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://studiomax.io/sitemap.xml

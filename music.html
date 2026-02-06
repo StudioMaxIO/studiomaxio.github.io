@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music | Max Meier</title>
+    <meta name="description" content="Music from 40 Klicks, instruction videos, and original recordings by Max Meier." />
+    <meta property="og:title" content="Music | Max Meier" />
+    <meta property="og:description" content="Music from 40 Klicks, instruction videos, and original recordings." />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/pages/music.css" />
+    <link rel="stylesheet" href="css/pages/videos.css" />
+    <style>
+      #nav-mount { min-height: 56px; }
+    </style>
+  </head>
+  <body>
+    <a href="#main-content" class="sr-only">Skip to content</a>
+    <div id="nav-mount"></div>
+
+    <main id="main-content">
+      <div class="container">
+        <section class="page-section">
+          <div class="section-header animate-on-scroll">
+            <h2>Music</h2>
+            <p>Original music, collaborations, and instruction content.</p>
+          </div>
+
+          <!-- 40 Klicks -->
+          <div class="music-section">
+            <div class="music-section-header animate-on-scroll">
+              <h3>40 Klicks</h3>
+              <p>Music with the band. Listen on your favorite platform.</p>
+              <div class="streaming-links">
+                <!-- TODO: Replace # with actual streaming URLs -->
+                <a href="#" class="streaming-link" target="_blank" rel="noopener">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381C8.64 5.801 15.6 6.06 20.04 8.761c.6.36.78 1.021.42 1.56-.36.48-1.08.66-1.62.36z"/></svg>
+                  Spotify
+                </a>
+                <a href="#" class="streaming-link" target="_blank" rel="noopener">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                  YouTube
+                </a>
+                <a href="#" class="streaming-link" target="_blank" rel="noopener">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.56 8.87V17h8.76c1.85-.04 2.68-1.31 2.68-2.61 0-1.31-.83-2.58-2.68-2.62-.29 0-.58.03-.86.11-.15-2.24-2.04-4-4.33-4-1.09 0-2.09.41-2.84 1.08-.12.1-.17.23-.17.36v.05c0 .13.05.27.17.36.12.1.27.16.42.16s.3-.06.42-.16c.59-.51 1.34-.82 2.17-.82 1.76 0 3.2 1.39 3.27 3.13v.01c0 .1.02.19.06.28.08.18.22.33.4.42.18.09.39.11.58.06.27-.07.55-.11.83-.11 1.14.02 1.66.79 1.66 1.58s-.52 1.58-1.66 1.6H12.58V8.87c0-.26-.19-.47-.45-.5h-.1c-.28 0-.47.22-.47.5zM8.56 17h1.5V10.2c-.34-.2-.73-.32-1.13-.38-.13-.02-.25-.02-.37-.02v7.2zM6.06 17h1.5v-6.98c-.44.07-.85.22-1.22.43l-.28.16V17zM3.56 17h1.5v-5.5c-.5.42-.88.97-1.1 1.59-.14.4-.26.8-.3 1.21-.04.2-.06.4-.06.6L3.56 17h.04-.04zM1.06 17h1.5v-2.37c-.22.34-.38.72-.48 1.12-.1.41-.1.83 0 1.25h-.02z"/></svg>
+                  SoundCloud
+                </a>
+              </div>
+            </div>
+
+            <!-- Spotify Embed Placeholder -->
+            <div class="music-embeds animate-on-scroll">
+              <!-- TODO: Replace ARTIST_ID with your Spotify artist ID -->
+              <!-- To find it: Spotify > Artist page > "..." > Share > Copy Spotify URI -->
+              <!-- URI looks like spotify:artist:XXXXXXXXXX — use the XXXXXXXXXX part -->
+              <div class="embed-container embed-container--audio">
+                <iframe
+                  src="https://open.spotify.com/embed/artist/ARTIST_ID?theme=0"
+                  width="100%" height="352" frameBorder="0"
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                  style="border-radius:12px;">
+                </iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- Music Instruction -->
+          <div class="music-section">
+            <div class="music-section-header animate-on-scroll">
+              <h3>Music Instruction</h3>
+              <p>Tutorials and instructional content for musicians.</p>
+            </div>
+
+            <div class="music-videos stagger-children">
+              <!-- TODO: Replace VIDEO_ID_1 etc. with actual YouTube video IDs -->
+              <div class="card music-video-card animate-on-scroll">
+                <div class="video-facade embed-container embed-container--video" data-video-id="VIDEO_ID_1">
+                  <img src="" alt="Music instruction video" loading="lazy" />
+                  <button class="play-overlay" aria-label="Play video">
+                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="30" fill="var(--color-accent-primary)" opacity="0.9"/><polygon points="24,18 24,42 44,30" fill="white"/></svg>
+                  </button>
+                </div>
+                <h4>Instruction Video</h4>
+                <p>Replace with your video title and description.</p>
+              </div>
+
+              <div class="card music-video-card animate-on-scroll">
+                <div class="video-facade embed-container embed-container--video" data-video-id="VIDEO_ID_2">
+                  <img src="" alt="Music instruction video" loading="lazy" />
+                  <button class="play-overlay" aria-label="Play video">
+                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="30" fill="var(--color-accent-primary)" opacity="0.9"/><polygon points="24,18 24,42 44,30" fill="white"/></svg>
+                  </button>
+                </div>
+                <h4>Instruction Video</h4>
+                <p>Replace with your video title and description.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Other Music -->
+          <div class="music-section">
+            <div class="music-section-header animate-on-scroll">
+              <h3>Other Music</h3>
+            </div>
+            <div class="empty-state animate-on-scroll">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+              <h3>More Music Coming Soon</h3>
+              <p>Additional recordings and collaborations will appear here.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div id="footer-mount"></div>
+    <script type="module" src="js/main.js"></script>
+    <script type="module">
+      import { initVideoFacades } from './js/video-embed.js';
+      document.addEventListener('DOMContentLoaded', () => {
+        initVideoFacades();
+      });
+    </script>
+  </body>
+</html>

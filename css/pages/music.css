@@ -1,0 +1,78 @@
+/* Music Page */
+.music-section + .music-section {
+  margin-top: var(--space-16);
+  padding-top: var(--space-16);
+  border-top: 1px solid var(--color-border);
+}
+
+.music-section-header {
+  margin-bottom: var(--space-8);
+}
+
+.music-section-header h2 {
+  margin-bottom: var(--space-3);
+}
+
+.music-section-header p {
+  color: var(--color-text-secondary);
+  max-width: 600px;
+}
+
+/* Streaming Links */
+.streaming-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+}
+
+.streaming-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  transition: all var(--transition-fast);
+}
+
+.streaming-link:hover {
+  border-color: var(--color-accent-primary);
+  color: var(--color-accent-primary);
+}
+
+.streaming-link svg {
+  width: 18px;
+  height: 18px;
+}
+
+/* Embed grid for music */
+.music-embeds {
+  display: grid;
+  gap: var(--space-6);
+  max-width: 600px;
+}
+
+/* Video grid within music */
+.music-videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--space-6);
+}
+
+.music-video-card {
+  overflow: hidden;
+}
+
+.music-video-card h4 {
+  padding: var(--space-4) var(--space-4) var(--space-2);
+  font-size: var(--text-base);
+}
+
+.music-video-card p {
+  padding: 0 var(--space-4) var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--color-text-tertiary);
+}

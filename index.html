@@ -2,333 +2,193 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Max Meier - Resume</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Max Meier | StudioMax — Developer, Musician, Creator</title>
+    <meta name="description" content="Max Meier is a full stack developer, blockchain architect, musician, and creator. Explore projects, music, videos, and more." />
+    <meta property="og:title" content="Max Meier | StudioMax" />
+    <meta property="og:description" content="Developer, musician, creator. Building at the intersection of technology and creativity." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://studiomax.io" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/pages/home.css" />
+    <style>
+      #nav-mount { min-height: 56px; }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Max Meier",
+      "url": "https://studiomax.io",
+      "jobTitle": "Full Stack Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Lucky Machines"
+      },
+      "sameAs": [
+        "https://linkedin.com/in/maxmeier",
+        "https://github.com/StudioMaxIO",
+        "https://github.com/LuckyMachines"
+      ],
+      "email": "max@studiomax.io"
+    }
+    </script>
   </head>
   <body>
-    <header>
-      <h1>Max Meier</h1>
-      <p>Full Stack Web3 Developer specializing in Solidity and JavaScript</p>
-      <div id="contact">
-        <p>
-          Bay Area, CA ||
-          <a href="mailto:max@studiomax.io">max@studiomax.io</a> ||
-          <a href="https://linkedin.com/in/maxmeier" target="_blank"
-            >LinkedIn</a
-          >
-        </p>
-      </div>
-    </header>
+    <a href="#main-content" class="sr-only">Skip to content</a>
+    <div id="nav-mount"></div>
 
-    <section id="summary">
-      <h2>Summary</h2>
-      <p>
-        I am a full stack Web3 developer and Solidity specialist with
-        foundations in JavaScript, Python, and Objective-C. Guided by a passion
-        for a provably fair and decentralized future. Proven success in
-        developing decentralized applications across multiple blockchains.
-        Detail-oriented and innovative thinker, committed to efficiency and
-        excellence.
-      </p>
-    </section>
+    <main id="main-content">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="hero-content animate-on-scroll">
+          <p class="hero-greeting">// hello world</p>
+          <h1>Max Meier</h1>
+          <div class="hero-subtitle">
+            <span id="typing-target"></span><span class="typing-cursor"></span>
+          </div>
+          <div class="hero-cta">
+            <a href="projects.html" class="btn btn--primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              View Projects
+            </a>
+            <a href="contact.html" class="btn btn--outline">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>
+              Book a Call
+            </a>
+          </div>
+        </div>
+        <div class="hero-scroll">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </div>
+      </section>
 
-    <section id="skills">
-      <h2>Technical Skills</h2>
-      <p>
-        Solidity, JavaScript, TypeScript, Python, Objective-C, Web3, React,
-        Next, Flask, Hardhat, Truffle, Ethers, AI Integration, Full Stack,
-        Blockchain, CI/CD
-      </p>
-    </section>
-    <section id="projects">
-      <h2>Relevant Projects</h2>
-      <ul>
-        <li>
-          <a href="https://github.com/LuckyMachines/autoloop" target="_blank"
-            >AutoLoop</a
-          >
-          - Decentralized blockchain automation system.
-        </li>
-        <li>
-          <a href="https://github.com/StudioMaxIO/build-a-bot" target="_blank"
-            >Build-a-bot</a
-          >
-          - A template for quickly prototyping custom GPT bots.
-        </li>
-        <li>
-          <a href="https://github.com/StudioMaxIO/RockiNN" target="_blank"
-            >RockiNN</a
-          >
-          - AI for learning and generating music from user input.
-        </li>
-        <li>
-          <a
-            href="https://github.com/LuckyMachines/hexploration"
-            target="_blank"
-            >Hexploration</a
-          >
-          - Experimental fully on-chain game using AutoLoop.
-        </li>
-        <li>
-          <a
-            href="https://github.com/LuckyMachines/hexploration-cli"
-            target="_blank"
-            >Hexploration CLI</a
-          >
-          - A demo frontend for Hexploration, built with Node.js.
-        </li>
-      </ul>
-    </section>
+      <!-- Content Grid -->
+      <section class="content-grid">
+        <div class="container">
+          <div class="section-header animate-on-scroll">
+            <h2>Explore</h2>
+            <p>Code, music, video, and everything in between.</p>
+          </div>
 
-    <section id="experience">
-      <h2>Professional Experience</h2>
-      <p>
-        <span class="title">Lucky Machines</span>
-        <span class="position">Chief Executive Officer</span>
-        <span class="detail">Aug 2021 — present (2 yrs)</span>
-      </p>
+          <div class="section-cards stagger-children">
+            <!-- Projects -->
+            <a href="projects.html" class="card card--link section-card animate-on-scroll">
+              <div class="section-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <div class="section-card-content">
+                <h3>Projects</h3>
+                <p>Web3 protocols, AI experiments, on-chain games, and developer tools.</p>
+              </div>
+              <span class="section-card-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </span>
+            </a>
 
-      <ul>
-        <li>
-          Developed AutoLoop, a decentralized EVM compatible smart contract
-          automation solution allowing contributors to earn a profit by
-          supporting the network.
-        </li>
-        <li>
-          Created Hexploration, an on-chain text adventure game, showcasing an
-          immersive Web3 experience and utilizing AutoLoop for progressing the
-          game.
-        </li>
-        <li>
-          Won multiple hackathon prizes in web3 + gaming, secured traditional
-          and Web3 grants.
-        </li>
-        <li>
-          Deployed cross-chain NFT pre-sale + redemption, with free reveal on
-          Ethereum.
-        </li>
-        <li>
-          Orchestrated cross-chain minting / burning with smart bots guided by
-          on-chain activity.
-        </li>
-      </ul>
+            <!-- Music -->
+            <a href="music.html" class="card card--link section-card animate-on-scroll">
+              <div class="section-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+              </div>
+              <div class="section-card-content">
+                <h3>Music</h3>
+                <p>Original music with 40 Klicks, instruction videos, and more.</p>
+              </div>
+              <span class="section-card-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </span>
+            </a>
 
-      <p>
-        <span class="title">MedicalKush</span>
-        <span class="position">Store Manager</span>
-        <span class="detail">Jan 2015 — Jul 2021 (6 yrs, 6 mos)</span>
-      </p>
+            <!-- Videos -->
+            <a href="videos.html" class="card card--link section-card animate-on-scroll">
+              <div class="section-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 8-6 4 6 4V8Z"/><rect width="14" height="12" x="2" y="6" rx="2" ry="2"/></svg>
+              </div>
+              <div class="section-card-content">
+                <h3>Videos</h3>
+                <p>Project demos, tutorials, music content, and creative experiments.</p>
+              </div>
+              <span class="section-card-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </span>
+            </a>
 
-      <ul>
-        <li>
-          Managed a state licensed cannabis store, overseeing all operations.
-        </li>
-        <li>
-          Maintained Magento based point of sale system, enhancing business
-          efficiency.
-        </li>
-        <li>
-          Ensured compliance with policies and regulations through SOP manuals
-          and training.
-        </li>
-      </ul>
+            <!-- Writing -->
+            <a href="writing.html" class="card card--link section-card animate-on-scroll">
+              <div class="section-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/></svg>
+              </div>
+              <div class="section-card-content">
+                <h3>Writing</h3>
+                <p>Articles on blockchain, development, music, and technology.</p>
+              </div>
+              <span class="section-card-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </span>
+            </a>
 
-      <p>
-        <span class="title">Nytch, Inc.</span>
-        <span class="position">iOS Developer</span>
-        <span class="detail">Dec 2014 — Apr 2016 (1 yr, 4 mos)</span>
-      </p>
+            <!-- About -->
+            <a href="about.html" class="card card--link section-card animate-on-scroll">
+              <div class="section-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              </div>
+              <div class="section-card-content">
+                <h3>About</h3>
+                <p>Background, experience, skills, and the story so far.</p>
+              </div>
+              <span class="section-card-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </span>
+            </a>
 
-      <ul>
-        <li>
-          Developed the initial iOS application, working with a team to deliver
-          MVP.
-        </li>
-        <li>
-          Built the app in Objective-C and Xcode, and synced the backend
-          database with CoreData.
-        </li>
-      </ul>
+            <!-- Contact -->
+            <a href="contact.html" class="card card--link section-card animate-on-scroll">
+              <div class="section-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>
+              </div>
+              <div class="section-card-content">
+                <h3>Contact</h3>
+                <p>Schedule a call or get in touch directly.</p>
+              </div>
+              <span class="section-card-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
 
-      <p>
-        <span class="title">Smarter Cookie</span>
-        <span class="position">iOS Developer</span>
-        <span class="detail">Jul 2013 — May 2015 (1 yr, 10 mos)</span>
-      </p>
+    <div id="footer-mount"></div>
 
-      <ul>
-        <li>
-          Created an iOS application for recording and sharing teaching videos.
-        </li>
-        <li>
-          Facilitated testing across devices, implemented analytics, and
-          maintained the app.
-        </li>
-      </ul>
-
-      <p>
-        <span class="title">Independent Software Developer</span>
-        <span class="position">iOS Developer</span>
-        <span class="detail">Jun 2009 — Jul 2013 (4 yrs, 1 mo)</span>
-      </p>
-
-      <ul>
-        <li>
-          Independently released multiple iOS applications, including utilities,
-          games, and a POS system.
-        </li>
-        <li>Achieved a top 10 overall ranking in the App Store</li>
-        <li>Received over 1 million downloads across all apps.</li>
-      </ul>
-
-      <p>
-        <span class="title">Apple Inc.</span>
-        <span class="position">Creative</span>
-        <span class="detail">Aug 2007 — Jun 2009 (1 yr, 11 mos)</span>
-      </p>
-
-      <ul>
-        <li>
-          Delivered individual training and led group workshops around Apple
-          software, including music production with GrageBand and Logic Pro.
-        </li>
-        <li>
-          Developed internal tool for managing training sessions within Creative
-          team.
-        </li>
-      </ul>
-    </section>
-
-    <section id="certifications">
-      <h2>Certifications:</h2>
-      <p>
-        <span class="certTitle"
-          ><a
-            href="https://www.linkedin.com/in/maxmeier/details/skills/
-          "
-            target="_blank"
-            >JavaScript</a
-          ></span
-        >
-        <span class="certIssuer">LinkedIn Skill Assessment</span>
-        <span class="certSkills">JavaScript</span>
-        <span class="detail">Sep 2023</span>
-      </p>
-      <p>
-        <span class="certTitle"
-          ><a
-            href="https://www.hackerrank.com/certificates/7a510eafc8bf
-          "
-            target="_blank"
-            >Problem Solving (Basic)</a
-          ></span
-        >
-        <span class="certIssuer">Hackerrank</span>
-        <span class="certSkills">JavaScript, Algorithms, Data Structures</span>
-        <span class="detail">Sep 2023</span>
-      </p>
-      <p>
-        <span class="certTitle"
-          ><a
-            href="https://assessments.hired.com/assessment/report/390528?
-          "
-            target="_blank"
-            >Programming Skills</a
-          ></span
-        >
-        <span class="certIssuer">Hired_</span>
-        <span class="certSkills">JavaScript, Algorithms, Data Structures</span>
-        <span class="detail">Aug 2023</span>
-      </p>
-      <p>
-        <span class="certTitle"
-          ><a
-            href="https://assessments.hired.com/assessment/report/391166?
-          "
-            target="_blank"
-            >Full Stack</a
-          ></span
-        >
-        <span class="certIssuer">Hired_</span>
-        <span class="certSkills"
-          >Full-stack Development, JavaScript, APIs, Backend, Server,
-          Scaling</span
-        >
-        <span class="detail">Aug 2023</span>
-      </p>
-      <p>
-        <span class="certTitle"
-          ><a
-            href="https://www.hackerrank.com/certificates/13465ea4a039
-          "
-            target="_blank"
-            >JavaScript (Basic)</a
-          ></span
-        >
-        <span class="certIssuer">Hackerrank</span>
-        <span class="certSkills"
-          >JavaScript, Functions, Currying, Hoisting, Scope, Inheritance,
-          Events, Error Handling</span
-        >
-        <span class="detail">Aug 2023</span>
-      </p>
-      <p>
-        <span class="certTitle"
-          ><a
-            href="https://www.udemy.com/certificate/UC-7b586e8e-1fd9-45ad-b97e-6af432cfa18f/
-          "
-            target="_blank"
-            >Ethereum and Solidity</a
-          ></span
-        >
-        <span class="certIssuer">Udemy</span>
-        <span class="certSkills"
-          >Solidity, Ethereum, JavaScript, Web3, Frontend, Next.js, React.js,
-          Web3.js</span
-        >
-        <span class="detail">Apr 2020</span>
-      </p>
-      <p>
-        <span class="certTitle"
-          ><a
-            href="https://www.linkedin.com/learning/certificates/d218d03f5ce6f5b06acad6748cbf1bda1a312ec957c7aeb6c208f3891e4bf751?trk=backfilled_certificate"
-            target="_blank"
-            >Python and Django</a
-          ></span
-        >
-        <span class="certIssuer">LinkedIn Learning</span>
-        <span class="certSkills">Python, Django, Backend</span>
-        <span class="detail">Nov 2016</span>
-      </p>
-      <p>
-        <span class="certTitle"
-          ><a
-            href="https://www.coursera.org/account/accomplishments/verify/5L5LABELK75W
-          "
-            target="_blank"
-            >Machine Learning: Classification</a
-          ></span
-        >
-        <span class="certIssuer">University of Washington</span>
-        <span class="certSkills">Machine Learning, Classification</span>
-        <span class="detail">Sep 2016</span>
-      </p>
-    </section>
-
-    <section id="education">
-      <h2>Education</h2>
-      <ul>
-        <li>
-          Columbia College Chicago - Arts Entertainment & Media Management
-        </li>
-        <li>
-          The Art Institutes (San Francisco) - Game and Interactive Media Design
-        </li>
-      </ul>
-    </section>
-
-    <footer>
-      <p>Copyright © 2023 Max Meier</p>
-    </footer>
+    <script type="module" src="js/main.js"></script>
+    <script type="module">
+      import { initTyping } from './js/typing.js';
+      document.addEventListener('DOMContentLoaded', () => {
+        const target = document.getElementById('typing-target');
+        if (target) {
+          initTyping(target, [
+            'Full Stack Developer',
+            'Blockchain Architect',
+            'Musician',
+            'Creator',
+            'Problem Solver'
+          ]);
+        }
+      });
+    </script>
   </body>
 </html>
